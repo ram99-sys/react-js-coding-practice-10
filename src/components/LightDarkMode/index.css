@@ -1,0 +1,42 @@
+.light-dark-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  border: 2px solid #000000;
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.heading {
+  font-size: 24px;
+  text-align: center;
+}
+.button {
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid #000000;
+  font-weight: 18px;
+}
+
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
